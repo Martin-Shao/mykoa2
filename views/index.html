@@ -1,0 +1,17 @@
+{% extends './layout.html' %}
+
+{% block title %}My Page{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="/styles/index.css">
+{% endblock %}
+
+{% block content %}
+  <div id="test"></div>
+  <p>This is just an awesome page.</p>
+  {% include "../components/news/list.html" %}
+{% endblock %}
+
+{% block scripts %}
+  <script src="/scripts/index.js"></script>
+{% endblock %}

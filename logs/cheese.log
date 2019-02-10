@@ -1,0 +1,74 @@
+[2019-02-08T12:15:54.858] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T12:15:54.859] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T12:17:31.524] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T12:17:31.526] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T12:23:15.068] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T12:23:15.070] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T12:23:25.359] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T12:23:25.361] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T17:33:44.422] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T17:33:44.424] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T17:33:52.469] [ERROR] cheese - ReferenceError: isModel is not defined
+    at /Users/shaogucheng/Desktop/code/yideng/yideng-book/controllers/IndexController.js:6:7
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/shaogucheng/Desktop/code/yideng/yideng-book/middlewares/errorHandler.js:15:13)
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/shaogucheng/Desktop/code/yideng/yideng-book/middlewares/errorHandler.js:5:15)
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/shaogucheng/Desktop/code/yideng/yideng-book/app.js:39:9)
+[2019-02-08T17:35:05.624] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T17:35:05.626] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T17:35:09.800] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/shaogucheng/Desktop/code/yideng/yideng-book/Users/shaogucheng/Desktop/code/yideng/yideng-book/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/shaogucheng/Desktop/code/yideng/yideng-book/Users/shaogucheng/Desktop/code/yideng/yideng-book/views/index.html' }
+[2019-02-08T17:35:30.952] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T17:35:30.953] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T17:35:33.929] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/shaogucheng/Desktop/code/yideng/yideng-book/Users/shaogucheng/Desktop/code/yideng/yideng-book/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/shaogucheng/Desktop/code/yideng/yideng-book/Users/shaogucheng/Desktop/code/yideng/yideng-book/views/index.html' }
+[2019-02-08T17:40:02.069] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T17:40:02.070] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T19:13:07.687] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T19:13:07.690] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T19:13:27.545] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T19:13:27.547] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T19:22:05.932] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T19:22:05.934] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T19:26:10.667] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T19:26:10.668] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:09:22.152] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:09:22.154] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:09:44.371] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:09:44.372] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:09:54.155] [ERROR] cheese - TypeError: SafeRequest is not a constructor
+    at Index.getData (/Users/shaogucheng/Desktop/code/yideng/yideng-book/models/Index.js:33:25)
+    at /Users/shaogucheng/Desktop/code/yideng/yideng-book/controllers/IndexController.js:9:28
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/shaogucheng/Desktop/code/yideng/yideng-book/middlewares/errorHandler.js:15:13)
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/shaogucheng/Desktop/code/yideng/yideng-book/middlewares/errorHandler.js:5:15)
+    at dispatch (/Users/shaogucheng/Desktop/code/yideng/yideng-book/node_modules/koa-compose/index.js:42:32)
+[2019-02-08T22:10:37.556] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:10:37.558] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:12:48.766] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:12:48.768] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:18:16.974] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:18:16.976] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:28:26.791] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:28:26.793] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:29:17.892] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:29:17.895] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-02-08T22:30:16.887] [ERROR] cheese - Cheese is too ripe!
+[2019-02-08T22:30:16.888] [FATAL] cheese - Cheese was breeding ground for listeria.
