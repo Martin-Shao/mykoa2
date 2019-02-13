@@ -30,6 +30,8 @@ npm install jsdoc --save-dev
 npm install node-fetch --save-dev
 
 npm install lodash --save
+
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
 ```
 
 各功能模块文件夹
@@ -68,3 +70,11 @@ app.js文件中新建Koa应用实例，尝试启动应用。
 ## config配置文件
 
 ## CSR和SSR# mykoa2
+
+## swig模版使用和注意事项
+
+- 注意swig的缓存机制
+
+## exports、module.exports和export、export default区别
+
+## babel在项目中的运用

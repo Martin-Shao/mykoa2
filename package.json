@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development supervisor app.js",
     "ecp": "echo $npm_package_name",
-    "docs": "jsdoc ./**/*.js -d ./docs/jsdocs"
+    "docs": "jsdoc ./**/*.js -d ./docs/jsdocs",
+    "build": "babel ./assets/scripts/add.js --out-file ../assets/scripts/add-bundle.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,9 @@
     "log4js": "^4.0.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
     "jsdoc": "^3.5.5",
     "koa-static": "^5.0.0",
     "node-fetch": "^2.3.0"

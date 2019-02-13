@@ -1,7 +1,16 @@
 <div class="list">
-  <ul>
+  <table class="table table-hover">
+    <tr>
+      <th>code</th>
+      <th>country</th>
+      <th>population</th>
+    </tr>
     {% for item in data %}
-      <li>{{item.country}}</li>
+      <tr>
+        <td>[[item.code]]</td>
+        <td>[[item.country]]</td>
+        <td>[[item.population]]</td>
+      </tr>
     {% endfor %}
-  </ul>
+  </table>
 </div>

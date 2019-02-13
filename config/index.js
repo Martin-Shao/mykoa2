@@ -9,12 +9,14 @@ let config = {
 if (process.env.NODE_ENV === 'development') {
   const localConfig = {
     baseUrl: 'http://localhost:8899/basic/web/index.php?r=',
+    cacheMode: false,
     port: 3000
   }
   config = _.extend(config, localConfig);
 }
 if (process.env.NODE_ENV === 'production') {
   const prodConfig = {
+    cacheMode: memory,
     port: 3000
   }
   config = _.extend(config, prodConfig);

@@ -7,10 +7,14 @@ class IndexController {
       // ctx.body = 'hello'
       const index = new Index();
       const result = await index.getData();
-      console.info(result);
       ctx.body = await ctx.render('index', {
         data: result.data
       });
+    }
+  };
+  actionAdd() {
+    return async (ctx, next) => {
+      ctx.body = await ctx.render('add');
     }
   }
 }
