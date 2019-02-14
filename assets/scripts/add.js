@@ -10,9 +10,9 @@ class Create {
     this.btn = $('#js-btn');
   }
   fn() {
-    this.btn.click(function() {
+    this.btn.click(yd.debounce(function() {
       console.info('shaogucheng is cooleast');
-    });
+    }, 2000));
   }
 }
 // const cfm = new Create();

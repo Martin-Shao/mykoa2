@@ -32,6 +32,8 @@ npm install node-fetch --save-dev
 npm install lodash --save
 
 npm install --save-dev @babel/core @babel/cli @babel/preset-env
+
+npm install --save-dev @babel/plugin-transform-modules-systemjs --save-dev
 ```
 
 各功能模块文件夹
@@ -78,3 +80,15 @@ app.js文件中新建Koa应用实例，尝试启动应用。
 ## exports、module.exports和export、export default区别
 
 ## babel在项目中的运用
+
+- babel的使用
+- systemJs的使用
+
+## Mac上使用nvm管理node版本！
+
+fsevent在Mac上安装错误的问题。。。
+
+## 防抖和节流（函数式编程实现）
+
+## 自动化测试--rize
+
