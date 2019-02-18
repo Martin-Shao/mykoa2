@@ -2,6 +2,7 @@
 
 ## 工程简介
 > 涉及SSR/CSR，`node+koa+swig`，后端接口采用restful借口，API由PHP（yii）提供或者Java（springboot+mybatis)
+> 附上数据库建表语句
 
 ## 工程初始化
 
