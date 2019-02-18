@@ -29,9 +29,26 @@ class Index {
    * return new Promise
    * getData(options)
    */
-  getData(options) {
+  getData() {
     const safeRequest = new SafeRequest('country/index');
     return safeRequest.fetch();
+  }
+
+  /**
+   * 获取后台全部图书的方法
+   *
+   * @param {*} options 配置项
+   * @memberof Index
+   * @example
+   * return new Promise
+   * getData(options)
+   */
+  saveData(options) {
+    const safeRequest = new SafeRequest('country/create');
+    return safeRequest.fetch({
+      method: "POST",
+      params: options.params
+    });
   }
 }
 

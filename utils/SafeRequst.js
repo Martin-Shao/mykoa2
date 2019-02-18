@@ -8,6 +8,14 @@ class SafeResquest{
   };
   fetch(options) {
     let ydFecth = fetch(this.baseUrl + this.url);
+    console.info(this.url);
+    if (options) {
+      ydFecth = fetch(this.baseUrl + this.url, {
+        method: options.method,
+        body: options.params
+      });
+    }
+    console.info(options);
     return new Promise((resolve, reject) => {
       let result = {
         code: 0,

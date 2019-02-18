@@ -9,6 +9,7 @@ module.exports = (app) => {
     _.get('/', indexcontroller.actionIndex());
     _.get('/index.html', indexcontroller.actionIndex());
     _.get('/test', testController.actionIndex());
+    _.get('/save', indexcontroller.actionSave());
     _.get('/add', indexcontroller.actionAdd());
   }))
 }
